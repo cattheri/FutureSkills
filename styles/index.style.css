@@ -3,11 +3,13 @@ html {
     min-width: 320px;
     overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
+    -webkit-appearance: none;
 
 }
 body {
     background-color: #FFFFFF;
     -webkit-text-size-adjust: 100%;
+    -webkit-appearance: none;
 }
 
 @font-face {
@@ -212,13 +214,12 @@ main {
 .div-button-course {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 22px;
-    margin-right: 22px;
+    margin: 22px;
 }
 
 .button-course {
     color: #000;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: #E7E7E7;
     border: none;
     font-family: Montserrat-Medium;

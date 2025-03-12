@@ -216,6 +216,7 @@ main {
 }
 
 .button-course {
+    color: #000;
     border-radius: 50px;
     background-color: #E7E7E7;
     border: none;

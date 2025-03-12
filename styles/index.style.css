@@ -1,5 +1,6 @@
 * {
     font-synthesis: none;
+
 }
 
 html {
@@ -54,11 +55,14 @@ body {
 }
 
 .button-discount {
+    cursor: pointer;
+    line-height: 24px;
+    width: 116px;
     background-color: #FFFFFF;
     margin: 13px 14px 0 0;
     border-radius: 20px;
     font-size: 14px;
-    padding: 4px 7.4px;
+    text-align: center;
     font-family: Montserrat-Medium;
 }
 
@@ -98,6 +102,7 @@ main {
     margin-right: 20px;
     width: 25px;
     height: 25px;
+    cursor: pointer;
 
 
 }
@@ -132,8 +137,8 @@ main {
 
 .menu {
     border-radius: 0 0 20px 20px;
-    position: fixed;
-    top: 53px;
+    position: absolute;
+    top: -15px;
     right: -100%;
     width: 100%;
     background: #ffffff;
@@ -152,8 +157,9 @@ main {
 
 .menu ul li {
     font-family: Montserrat-SemiBold;
-    padding: 20px 13px;
+    padding: 20px 0 20px 13px;
     text-align: left;
+    width: 80vw;
 }
 
 .menu ul li a {
@@ -161,6 +167,7 @@ main {
     color: #000000;
     font-size: 16px;
     display: block;
+    width: 80vw;
 }
 
 
@@ -220,13 +227,15 @@ main {
 }
 
 .button-course {
+    cursor: pointer;
     color: #000;
     border-radius: 50px;
     background-color: #E7E7E7;
     border: none;
     font-family: Montserrat-Medium;
     font-size: 16px;
-    padding: 5.5px 8.8px;
+    line-height: 29px;
+    padding: 0px 10px;
     margin-bottom: 5px;
     margin-right: 2px;
 }
@@ -250,6 +259,7 @@ main {
     grid-auto-flow: column;
     scroll-behavior: auto;
     gap: 19px;
+    justify-content: space-evenly;
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
@@ -336,6 +346,11 @@ main {
     margin: 28px 0 0 21px;
 }
 
+.three-img {
+    margin-right: 43px;
+    cursor: pointer;
+}
+
 .eight-img {
     margin-right: 43px;
 }
@@ -361,7 +376,7 @@ main {
 .two-one-title-main {
     margin: 0 43px 21px 43px;
     text-align: center;
-    font-family: Montserrat-Regular;
+    font-family: Montserrat-Medium;
     font-size: 16px;
     line-height: 18px;
     min-width: 175px;
@@ -369,7 +384,7 @@ main {
 }
 
 .pos-candy {
-    width: 320px;
+    width: 50%;
     margin-top: -320px;
     z-index: -100;
 }
@@ -434,8 +449,17 @@ main {
     margin-top: 60px;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 2348px;
+    height: 1906px;
     background: #0c2134;
+}
+
+.pos-card-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin: 0 22px 0 22px;
+
 }
 
 .text-main2 {
@@ -444,11 +468,11 @@ main {
     line-height: 28px;
     color: #FFFFFF;
     text-align: center;
-    margin: 26px 11px 0 11px;
+    margin: 26px 11px 25px 11px;
 }
 
 .card-main2 {
-    margin: 25px 0 0 0;
+    margin: 0 0 0 0;
     border-radius: 20px;
     padding: 5px 0px;
     width: 276px;
@@ -463,7 +487,7 @@ main {
 }
 
 .name2-card-main2 {
-    font-family: Montserrat-Regular;
+    font-family: Montserrat-Medium;
     font-size: 18px;
     line-height: 18px;
     text-align: center;
@@ -503,6 +527,7 @@ main {
     width: 242px;
     height: 355px;
     background: #fff;
+   
 }
 
 .img-curator {
@@ -514,13 +539,14 @@ main {
 .name-curator {
     font-family: Montserrat-SemiBold;
     font-size: 20px;
+    width: 160px;
     margin: 5px 0 0 11px;
 }
 
 .star-curator {
     font-family: Montserrat-SemiBold;
     font-size: 20px;
-    margin: 5px 0 0 23px;
+    margin: 5px 0 0 14px;
 }
 
 .pos-name-curator {
@@ -539,15 +565,29 @@ main {
     font-family: Montserrat-SemiBold;
     font-size: 16px;
     width: 223px;
+    height: 112px;
     color: #696969;
     line-height: 16px;
-    margin: 0 11px 0 11px;
+    margin: 0 0 0 11px;
 }
 
 .span-curator {
     border: 1px solid #000;
     border-radius: 50px;
-    padding: 4.3px 9.1px;
+    width: 102px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #fff;
+    font-family: Montserrat-Medium;
+    margin: 24px 0 0 15px;
+}
+
+.span1-curator {
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 130px;
+    line-height: 29px;
+    text-align: center;
     background-color: #fff;
     font-family: Montserrat-Medium;
     margin: 24px 0 0 15px;
@@ -556,7 +596,9 @@ main {
 .span2-curator {
     border: 1px solid #000;
     border-radius: 50px;
-    padding: 4.32px 19.9px;
+    width: 102px;
+    line-height: 29px;
+    text-align: center;
     background-color: #fff;
     font-family: Montserrat-Medium;
     margin: 24px 11px 0 8px;
@@ -564,10 +606,142 @@ main {
 
 .button-continue {
     border-radius: 50px;
-    padding: 5.31px 18.1px;
+    line-height: 29px;
+    width: 133px;
+    cursor: pointer;
     background-color: #000;
     color: #fff;
     font-family: Montserrat-Medium;
     border: none;
     margin: 5px 0 0 55px;
+}
+
+.pos-card-end {
+    display: flex;
+    margin: 0 22px 0 22px;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.card-end {
+    border-radius: 20px;
+    width: 276px;
+    height: 276px;
+    background-color: #fff;
+}
+
+.img-card1-end {
+    width: 187.72px;
+
+    margin: 16.17px 0 0 42.3px;
+}
+
+.img-card2-end {
+    width: 128px;
+    margin: 16.17px 0 0 74.44px;
+}
+
+.name-card-end {
+    font-family: Montserrat-SemiBold;
+    font-size: 20px;
+    width: 236px;
+    margin: 6px 0 0 21px;
+    text-align: center;
+}
+
+.name2-card-end {
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+
+.name2-card2-end {
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    margin: 6px 0 0 0;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    top: -1px;
+    position: relative;
+    background-color: #292929;
+}
+
+.div-full-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-top: 51px;
+}
+
+.title-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    list-style: none;
+    width: 230.64px;
+    color: #fff;
+    padding: 0 0 8px 22px;
+    text-decoration: underline #444444;
+    text-underline-offset: 8px;
+}
+
+.title2-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    list-style: none;
+    color: #fff;
+    padding: 19px 0 8px 22px;
+    text-decoration: underline #444444;
+    text-underline-offset: 8px;
+}
+
+.details {
+    cursor: pointer;
+}
+
+.details-p {
+    margin: 0 22px 10px;
+    font-size: 16px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.details-p2 {
+    margin: 0 22px 10px;
+    font-size: 14px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.details ul {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+}
+
+.details ul li {
+    cursor: default;
+    color: #858585;
+    padding: 0 0 10px 30px;
+}
+
+.number-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 22px;
+
+}
+.text-after-number {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    padding: 0px 22px;
 }

@@ -192,7 +192,8 @@ main {
     width: 239px;
     font-family: Montserrat-SemiBold;
     font-size: 34px;
-    line-height: 32px;
+    font-weight: 600;
+    line-height: 94%;
 
 
 
@@ -217,7 +218,7 @@ main {
 
 .button-course {
     color: #000;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: #E7E7E7;
     border: none;
     font-family: Montserrat-Medium;

@@ -138,7 +138,7 @@ input {
 }
 @supports not (accent-color: #ffffff) {
     .input-checkbox {
-        filter: contrast(#fff);
+        filter: invert(1);
     }
 }
 .text-remember {

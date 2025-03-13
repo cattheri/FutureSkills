@@ -701,6 +701,7 @@ footer {
 
 .details {
     cursor: pointer;
+    list-style: none;
 }
 
 .details-p {

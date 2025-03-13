@@ -133,13 +133,8 @@ input {
 .input-checkbox {
     width: 20px;
     height: 20px;
-    accent-color: #ffffff;
+    accent-color: #000000;
     cursor: pointer;
-}
-@supports not (accent-color: #ffffff) {
-    .input-checkbox {
-        filter: invert(1);
-    }
 }
 .text-remember {
     font-family: Montserrat-Medium;

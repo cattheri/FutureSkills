@@ -690,9 +690,6 @@ footer {
     padding: 0 0 8px 0;
     border-bottom: 1px solid #444444;
 }
-.title-footer::marker {
-    display: none;
-}
 
 .title2-footer {
     font-family: Montserrat-SemiBold;
@@ -702,7 +699,14 @@ footer {
     padding: 19px 0 8px 0;
     border-bottom: 1px solid #444444;
 }
-
+summary {
+    list-style: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
 .details {
     cursor: pointer;
     list-style: none;

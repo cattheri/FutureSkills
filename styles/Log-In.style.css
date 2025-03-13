@@ -131,6 +131,8 @@ input {
 }
 
 .input-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
     width: 20px;
     height: 20px;
     accent-color: #ffffff;

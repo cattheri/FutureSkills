@@ -84,11 +84,12 @@ main {
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 19px 0 0 22px;
+    margin: 15px 0 0 22px;
 }
 
 .right-nav {
     display: flex;
+    gap: 20px;
     flex-direction: row;
 }
 
@@ -102,7 +103,6 @@ main {
 }
 
 .profile {
-    margin-right: 20px;
     width: 25px;
     height: 25px;
     cursor: pointer;

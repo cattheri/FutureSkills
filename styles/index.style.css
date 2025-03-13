@@ -677,6 +677,9 @@ footer {
     gap: 48px;
     padding-top: 51px;
 }
+.div-footer {
+    padding: 0 22px;
+}
 
 .title-footer {
     font-family: Montserrat-SemiBold;
@@ -684,10 +687,8 @@ footer {
     list-style: none;
     width: 230.64px;
     color: #fff;
-    padding: 0 0 8px 22px;
-    text-decoration: underline #444444;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 8px;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #444444;
 }
 
 .title2-footer {
@@ -695,10 +696,8 @@ footer {
     font-size: 18px;
     list-style: none;
     color: #fff;
-    padding: 19px 0 8px 22px;
-    text-decoration: underline #444444;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 8px;
+    padding: 19px 0 8px 0;
+    border-bottom: 1px solid #444444;
 }
 
 .details {
@@ -707,14 +706,14 @@ footer {
 }
 
 .details-p {
-    margin: 0 22px 10px;
+    margin: 0 0 10px;
     font-size: 16px;
     width: 90px;
     cursor: pointer;
 }
 
 .details-p2 {
-    margin: 0 22px 10px;
+    margin: 0 0 10px;
     font-size: 14px;
     width: 80px;
     cursor: pointer;
@@ -728,7 +727,7 @@ footer {
     font-size: 14px;
 }
 
-.details ul li {
+.details-ul-li {
     cursor: default;
     color: #858585;
     padding: 0 0 10px 30px;
@@ -738,7 +737,7 @@ footer {
     font-family: Montserrat-SemiBold;
     font-size: 18px;
     color: #fff;
-    padding: 0 22px;
+    
 
 }
 .text-after-number {
@@ -746,5 +745,5 @@ footer {
     font-size: 12px;
     color: #fff;
     margin: 0;
-    padding: 0px 22px;
+    
 }

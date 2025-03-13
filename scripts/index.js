@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay')
 menuicon.addEventListener('click', () => {
     menu.classList.toggle('active');
     body.classList.toggle('no-scroll');
-    overlay.classList.toggle('overlay');
+    overlay.classList.toggle('active');
 });
 
 

@@ -449,7 +449,7 @@ main {
     margin-top: 60px;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 1906px;
+    height: 1907px;
     background: #0c2134;
 }
 
@@ -527,7 +527,7 @@ main {
     width: 242px;
     height: 355px;
     background: #fff;
-   
+
 }
 
 .img-curator {
@@ -666,20 +666,22 @@ main {
 
 footer {
     width: 100%;
-    top: -1px;
+    
     position: relative;
     background-color: #292929;
 }
 
 .div-full-footer {
+    border-bottom: 1px solid #444444;
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
-    padding-top: 51px;
+    padding: 51px 0 16px 0;
 }
-.div-footer {
-    padding: 0 22px;
+.container-footer {
+    padding: 0px 22px;
 }
+
 
 .title-footer {
     font-family: Montserrat-SemiBold;
@@ -699,14 +701,17 @@ footer {
     padding: 19px 0 8px 0;
     border-bottom: 1px solid #444444;
 }
+
 summary {
     list-style: none;
     appearance: none;
     -webkit-appearance: none;
 }
+
 summary::-webkit-details-marker {
     display: none;
 }
+
 .details {
     cursor: pointer;
     list-style: none;
@@ -744,13 +749,36 @@ summary::-webkit-details-marker {
     font-family: Montserrat-SemiBold;
     font-size: 18px;
     color: #fff;
-    
+
 
 }
+
 .text-after-number {
     font-family: Montserrat-Regular;
     font-size: 12px;
     color: #fff;
     margin: 0;
-    
+
+}
+
+.text-address-gmail {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #fff;
+}
+
+.pos-gmail {
+    padding: 8px 0 0 0;
+    margin: 0;
+}
+
+.pos-svg-icon {
+    display: flex;
+    padding: 8px 0 0 0;
+    gap: 12px;
+}
+.word-end {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 24px 0;
 }

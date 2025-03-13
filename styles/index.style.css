@@ -686,6 +686,7 @@ footer {
     color: #fff;
     padding: 0 0 8px 22px;
     text-decoration: underline #444444;
+    -webkit-text-decoration: underline #444444;
     text-underline-offset: 8px;
 }
 
@@ -696,6 +697,7 @@ footer {
     color: #fff;
     padding: 19px 0 8px 22px;
     text-decoration: underline #444444;
+    -webkit-text-decoration: underline #444444;
     text-underline-offset: 8px;
 }
 

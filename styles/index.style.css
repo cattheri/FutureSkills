@@ -65,6 +65,8 @@ body.no-scroll {
     line-height: 24px;
     width: 116px;
     background-color: #FFFFFF;
+    color: #000;
+    padding: 0;
     margin: 13px 14px 0 0;
     border-radius: 20px;
     border: none;

@@ -68,12 +68,14 @@ body.no-scroll {
 
 .button-discount {
     cursor: pointer;
-    border: none;
     line-height: 24px;
     width: 116px;
     background-color: #FFFFFF;
+    color: #000;
+    padding: 0;
     margin: 13px 14px 0 0;
     border-radius: 20px;
+    border: none;
     font-size: 14px;
     text-align: center;
     font-family: Montserrat-Medium;

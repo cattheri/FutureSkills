@@ -14,7 +14,7 @@
     <div class="discount">
         <div class="display-discount">
             <h1 class="discount-text">Скидки до 50% !</h1>
-            <span class="button-discount">Выбрать курс</span>
+            <button onclick="goToNextPage('./pages/Course.html')" class="button-discount">Выбрать курс</button>
         </div>
     </div>
     <header>
@@ -32,7 +32,7 @@
                     <div class="menu">
                         <ul>
                             <li><a href="./pages/About.html">О FutureSkills</a></li>
-                            <li><a href="#">Все курсы</a></li>
+                            <li><a href="./Course.html">Все курсы</a></li>
                             <li><a href="#">Наш блог</a></li>
                         </ul>
                     </div>
@@ -301,7 +301,7 @@
                     <details class="details">
                         <summary class="title-footer">Направления</summary>
                         <ul>
-                            <li class="details-p">Все курсы</li>
+                            <li class="details-p"><a href="./pages/Course.html">Все курсы</a></li>
                             <li class="details-ul-li">Русский язык</li>
                             <li class="details-ul-li">Английский язык</li>
                             <li class="details-ul-li">Китайский язык</li>
@@ -340,6 +340,7 @@
     </footer>
     <div class="overlay"></div>
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/Log-In-Sign-Up.js"></script>
 </body>
 
 </html>

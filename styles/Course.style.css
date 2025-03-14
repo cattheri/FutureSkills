@@ -12,9 +12,11 @@ body {
     background-color: #ffffff;
     overflow-x: hidden;
 }
+
 body.no-scroll {
     overflow: hidden;
 }
+
 .no-scroll {
     position: fixed;
     width: 100%;
@@ -47,41 +49,11 @@ body.no-scroll {
     src: url(../assets/fonts/Montserrat-SemiBold.ttf);
 }
 
-.discount {
-    height: 50px;
-    background-color: #000000;
-    border-radius: 0 0 20px 20px;
-    margin: 0 3px 0 3px;
-}
-
-.display-discount {
-    display: flex;
-    justify-content: space-between;
-}
-
-.discount-text {
-    font-family: Monteserrat-Black;
-    font-size: 14px;
-    color: #FFFFFF;
-    margin: 17px 0 0 14px;
-}
-
-.button-discount {
-    cursor: pointer;
-    border: none;
-    line-height: 24px;
-    width: 116px;
-    background-color: #FFFFFF;
-    margin: 13px 14px 0 0;
-    border-radius: 20px;
-    font-size: 14px;
-    text-align: center;
-    font-family: Montserrat-Medium;
-}
 header {
     position: relative;
     z-index: 4;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -140,7 +112,7 @@ header {
 .menu {
     border-radius: 0 0 20px 20px;
     position: fixed;
-    top: 54px;
+    top: 0;
     right: -100%;
     width: 100%;
     background: #ffffff;
@@ -182,6 +154,7 @@ header {
 #menu-toggle:checked+.menu-icon span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
 .overlay.active {
     position: fixed;
     top: 55px;
@@ -191,82 +164,202 @@ header {
     background-color: rgba(0, 0, 0, 0.555);
     pointer-events: none;
 }
+
 .container {
-    padding: 37px 23px 0 23px;
+    padding: 42px 23px 0 23px;
 }
+
 .h1 {
+    line-height: 28px;
     font-family: Montserrat-SemiBold;
     font-size: 32px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 69px;
-}
-.container-map img {
-    width: 100%;
-    padding-bottom: 18px;
-    border-radius: 20px;
-}
-.p-address {
-    font-family: Montserrat-Regular;
-    font-size: 18px;
-    display: flex;
     text-align: center;
     margin: 0;
-    padding-bottom: 36px;
-    justify-content: center;
+    padding-bottom: 45px;
 }
-.div-1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: space-evenly;
-}
-.h2 {
+
+.title-1 {
     font-family: Montserrat-Medium;
-    font-size: 20px;
-    display: flex;
+    font-size: 24px;
     margin: 0;
-    padding-bottom: 21px;
     text-align: center;
-    justify-content: center;
+    padding-bottom: 22px;
 }
-.div-1-1 {
+
+.container-img {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 11px;
-    
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 19px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 22px;
+}
+.card-course {
+    border-radius: 20px;
+    width: 275px;
+    height: 116px;
+    background: #fdab04;
+}
+.card-course2 {
+    border-radius: 20px;
+    width: 275px;
+    height: 116px;
+    background: #E92D29;
+}
+.card-course3 {
+    border-radius: 20px;
+    width: 275px;
+    height: 116px;
+    background: #0C2134;
+}
+.card-course4 {
+    border-radius: 20px;
+    width: 275px;
+    height: 116px;
+    background: #88B6C3;
+}
+.one-card {
+    margin-left: 23px;
+}
+.end-card {
+    margin-right: 23px;
+}
+.div-line-IT {
+    display: flex;
+    gap: 31px;
+}
+.div-line-2IT {
+    display: flex;
+    gap: 65px;
+    padding: 30px 0 0 19px;
+}
+.div-line-2block-2IT {
+    display: flex;
+    gap: 88px;
+    padding: 30px 0 0 19px;
+}
+.div-line-3D {
+    display: flex;
+    gap: 38px;
+}
+.div-line-2-3D {
+    display: flex;
+    gap: 69px;
+    padding: 30px 0 0 19px;
+}
+.div-line-2block-3D {
+    display: flex;
+    gap: 75px;
+    padding: 30px 0 0 19px;
+}
+.div-line-phis {
+    display: flex;
+    gap: 152px;
     
 }
-.p-social {
+.div-line-2phis {
+    display: flex;
+    gap: 70px;
+    padding: 44px 0 0 19px;
+    
+}
+.div-line-2block-phis {
+    display: flex;
+    gap: 88px;
+    padding: 44px 0 0 19px;
+    
+}
+.h-card {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 12px 0 4px 20px;
+    margin: 0;
+}
+.h2-card {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
     align-items: center;
     display: flex;
-    font-family: Montserrat-Regular;
-    font-size: 16px;
+}
+.price {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #ffffff;
     margin: 0;
 }
-.p-contact {
+.arrow {
+    margin-top: 16px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+.span {
+    line-height: 20px;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 19px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.title-2 {
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+    margin: 0;
     text-align: center;
-    display: flex;
-
-    font-family: Montserrat-Regular;
-    font-size: 18px;
-    width: 184px;
-    padding-bottom: 11px;
-    margin: 0;
+    padding: 23px 0 22px 0;
 }
-.p-email {
-   text-align: center;
+.div-line-rus {
     display: flex;
-    font-family: Montserrat-Regular;
-    font-size: 18px;
-    width: 241px;
-    padding-top: 16px;
-    margin: 0;
+    gap: 95px;
 }
-.svg {
-    filter: brightness(0%);
-    width: 32px;
+.div-line-eng {
+    display: flex;
+    gap: 57px;
+}
+.div-line-chin {
+    display: flex;
+    gap: 71px;
+}
+.div-line-obsh {
+    display: flex;
+    gap: 59px;
+}
+.div-line-gramot {
+    display: flex;
+    gap: 91px;
+}
+.div-line-gramot2 {
+    display: flex;
+    gap: 70px;
+    padding: 28px 0 0 19px;
+}
+.div-line-2block-gramot {
+    display: flex;
+    gap: 88px;
+    padding: 28px 0 0 19px;
+}
+.word-gramot {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 12px 0 4px 20px;
+    margin: 0;
+    width: 134px;
+}
+main {
+    padding-bottom: 115px;
 }
 footer {
     border-radius: 20px 20px 0 0;
@@ -384,9 +477,6 @@ summary::-webkit-details-marker {
     display: flex;
     justify-content: center;
     padding: 17px 0 24px 0;
-}
-main {
-    padding-bottom: 121px;
 }
 a {
     text-decoration: none;

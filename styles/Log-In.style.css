@@ -60,6 +60,7 @@ body {
 .button-discount {
     cursor: pointer;
     line-height: 24px;
+    border: none;
     width: 116px;
     background-color: #FFFFFF;
     margin: 13px 14px 0 0;
@@ -136,6 +137,7 @@ input {
     accent-color: #000000;
     cursor: pointer;
 }
+
 .text-remember {
     font-family: Montserrat-Medium;
     font-size: 16px;
@@ -212,13 +214,17 @@ input {
     width: 54px;
     height: 54px;
 }
+
 .svg-icon-1 {
-   padding: 13px;
+    padding: 13px;
 }
+
 .svg-icon-2 {
     padding: 17px 11px;
- }
- footer {
+}
+
+footer {
+    top: 1px;
     border-radius: 20px 20px 0 0;
     width: 100%;
     position: relative;
@@ -335,6 +341,11 @@ summary::-webkit-details-marker {
     justify-content: center;
     padding: 17px 0 24px 0;
 }
+
 main {
-    height: 650px;
+    padding-bottom: 87px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }

@@ -15,7 +15,7 @@
     <div class="discount">
         <div class="display-discount">
             <h1 class="discount-text">Скидки до 50% !</h1>
-            <span class="button-discount">Выбрать курс</span>
+            <button onclick="goToNextPage('../pages/Course.html')" class="button-discount">Выбрать курс</button>
         </div>
     </div>
     <header>
@@ -34,7 +34,7 @@
                     <div class="menu">
                         <ul>
                             <li><a href="./About.html">О FutureSkills</a></li>
-                            <li><a href="#">Все курсы</a></li>
+                            <li><a href="./Course.html">Все курсы</a></li>
                             <li><a href="#">Наш блог</a></li>
                         </ul>
                     </div>
@@ -45,27 +45,78 @@
         <div class="container">
             <h1 class="h1"> О FutureSkills</h1>
             <div class="container-map">
-                <a href="https://yandex.ru/maps/213/moscow/house/maly_konyushkovskiy_pereulok_2/Z04Ycw9gSEwEQFtvfXt0eX5nZA==/?ll=37.580194%2C55.758240&z=15"><img class="map" src="../assets/images/map.png"></a>
+                <a
+                    href="https://yandex.ru/maps/213/moscow/house/maly_konyushkovskiy_pereulok_2/Z04Ycw9gSEwEQFtvfXt0eX5nZA==/?ll=37.580194%2C55.758240&z=15"><img
+                        class="map" src="../assets/images/map.png"></a>
             </div>
-           <p class="p-address">г. Москва, Малый Конюшковский пер., 2 </p>
-       
-        <div class="div-1">
-            <div>
-                <h2 class="h2">Наши социальные сети:</h2>
-                <div class="div-1-1">
-                    <img class="svg" src="../assets/images/Vector-1.svg">
-                    <img class="svg" src="../assets/images/Vector-2.svg">
-                    <img class="svg" src="../assets/images/Vector.svg">
+            <p class="p-address">г. Москва, Малый Конюшковский пер., 2 </p>
+            <div class="div-1">
+                <div>
+                    <h2 class="h2">Наши социальные сети:</h2>
+                    <div class="div-1-1">
+                        <img class="svg" src="../assets/images/Vector-1.svg" alt="Telegram">
+                        <p class="p-social">Telegram</p>
+                        <img class="svg" src="../assets/images/Vector.svg">
+                        <p class="p-social">Вконтакте</p>
+                        <img class="svg" src="../assets/images/Vector-2.svg">
+                        <p class="p-social">YouTube</p>
+                    </div>
                 </div>
-
+                <div>
+                    <h2 class="h2">Вы можете с нами связаться:</h2>
+                    <p class="p-contact">Учебная приёмная: 8 (800) 550-50-50 </p>
+                    <p class="p-contact">Учебная приёмная: 8 (800) 550-50-50 </p>
+                    <p class="p-contact">Учебная приёмная: 8 (800) 550-50-50 </p>
+                    <p class="p-email">Наша электронная почта: welcome@futureskills.ru</p>
+                </div>
             </div>
-            <div>
-
-            </div>
-
         </div>
-    </div>
     </main>
+    <footer>
+        <div class="container-footer">
+            <div class="div-full-footer">
+                <div>
+                    <details class="details">
+                        <summary class="title-footer">Направления</summary>
+                        <ul>
+                            <li class="details-p"><a href="../pages/Course.html">Все курсы</a></li>
+                            <li class="details-ul-li">Русский язык</li>
+                            <li class="details-ul-li">Английский язык</li>
+                            <li class="details-ul-li">Китайский язык</li>
+                            <li class="details-ul-li">Обществознание</li>
+                            <li class="details-ul-li">Юридическая грамотность</li>
+                            <li class="details-ul-li">Физика</li>
+                            <li class="details-ul-li">Программирование</li>
+                            <li class="details-ul-li">3D-моделирование</li>
+                        </ul>
+                    </details>
+                    <details class="details">
+                        <summary class="title2-footer">O FutureSkills</summary>
+                        <ul>
+                            <li class="details-p2">Наш блог</li>
+                            <li class="details-p2"><a href="../pages/About.html">О нас</a></li>
+
+                        </ul>
+                    </details>
+                </div>
+                <div>
+                    <h7 class="number-footer">8 (800) 550-50-50</h7>
+                    <p class="text-after-number">Вопросы по покупке, оплате и содержанию курсов</p>
+                </div>
+                <div>
+                    <h7 class="text-address-gmail">г. Москва, Малый Конюшковский пер., 2 </h7>
+                    <p class="text-address-gmail pos-gmail">welcome@futureskills.ru</p>
+                    <article class="pos-svg-icon">
+                        <img src="../assets/images/Vector-1.svg">
+                        <img src="../assets/images/Vector.svg">
+                        <img src="../assets/images/Vector-2.svg">
+                    </article>
+                </div>
+            </div>
+        </div>
+        <p class="text-after-number word-end">© FutureSkills, 2025</p>
+    </footer>
+    <div class="overlay"></div>
     <script src="../scripts/index.js"></script>
 </body>
 

@@ -100,6 +100,7 @@ header {
 }
 
 .svg {
+    cursor: pointer;
     width: 30px;
     display: flex;
     align-items: center;
@@ -329,4 +330,137 @@ summary::-webkit-details-marker {
 a {
     text-decoration: none;
     color: #fff;
+}
+@media screen and (min-width:768px) {
+    .title-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        list-style: none;
+        width: 230.64px;
+        color: #fff;
+        padding: 0 0 8px 0;
+        border-bottom: 1px solid #444444;
+    }
+    
+    .title2-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        list-style: none;
+        color: #fff;
+        padding: 19px 0 8px 0;
+        border-bottom: 1px solid #444444;
+    }
+    .details-p {
+        margin: 0 0 10px;
+        font-size: 18px;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+    .details-p2 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        width: 90px;
+        cursor: pointer;
+    }
+    
+    .details ul {
+        list-style: none;
+        color: #fff;
+        padding: 0;
+        font-family: Montserrat-Medium;
+        font-size: 16px;
+    }
+    
+    .number-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .text-after-number {
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .text-address-gmail {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        color: #fff;
+    }
+}
+@media screen and (min-width:1024px) 
+{
+    .wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .title-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        list-style: none;
+        width: 230.64px;
+        color: #fff;
+        padding: 0 0 8px 0;
+        border-bottom: 1px solid #444444;
+    }
+    
+    .title2-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        list-style: none;
+        color: #fff;
+        padding: 19px 0 8px 0;
+        border-bottom: 1px solid #444444;
+    }
+    .details-p {
+        margin: 0 0 10px;
+        font-size: 18px;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+    .details-p2 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        width: 90px;
+        cursor: pointer;
+    }
+    
+    .details ul {
+        list-style: none;
+        color: #fff;
+        padding: 0;
+        font-family: Montserrat-Medium;
+        font-size: 16px;
+    }
+    
+    .number-footer {
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .text-after-number {
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .text-address-gmail {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        color: #fff;
+    }
+    .div-full-footer {
+        border-bottom: 1px solid #444444;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px;
+        justify-content:center;
+        padding: 51px 0 16px 0;
+    }
 }

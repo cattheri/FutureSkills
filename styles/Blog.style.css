@@ -184,3 +184,352 @@ header {
     text-align: center;
     padding-bottom: 22px;
 }
+.avatar {
+    width: 44px;
+    border-radius: 100px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    margin: 0;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    color: #000000;
+}
+.role {
+    margin: 0;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    color: #444444;
+}
+.text-container {
+    min-width: 275px;
+    overflow: hidden;
+}
+
+.text {
+    white-space: pre-line;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.5px;
+    line-height: 17px;
+    max-height: 150px; /* Высота скрытой части */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle:checked + .text {
+    max-height: 790px; /* Увеличиваем высоту для полного отображения */
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+
+}
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.container-img {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 19px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.photo {
+    background-image: url(../assets/images/cat-lap.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+    margin-left: 23px;
+}
+.photo2 {
+    background-image: url(../assets/images/cat2-lap.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.photo3 {
+    margin-right: 23px;
+    background-image: url(../assets/images/cow-lap.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.photo11 {
+    background-image: url(../assets/images/cat2.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+    margin-left: 23px;
+}
+.photo22 {
+    background-image: url(../assets/images/cat3.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.photo33 {
+    margin-right: 23px;
+    background-image: url(../assets/images/cat4.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.photo111 {
+    background-image: url(../assets/images/chin1.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+    margin-left: 23px;
+}
+.photo222 {
+    background-image: url(../assets/images/chin2.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.photo333 {
+    margin-right: 23px;
+    background-image: url(../assets/images/chin3.png);
+    border-radius: 20px;
+    width: 275px;
+    height: 355px;
+    margin-top: 18px;
+}
+.div-nav-post {
+    padding: 10px 23px 0 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.part-1 {
+    display: flex;
+    gap: 20px;
+}
+.button-nav {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: #ffffff00;
+
+    &:hover {
+        background-image: url(../assets/images/Like-full.svg);
+        width: 27px;
+        height: 27px;
+
+    }
+}
+.button-nav2 {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: #ffffff00;
+}
+.button-nav3 {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: #ffffff00;
+}
+
+.svg-comment {
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(3%) saturate(19%) hue-rotate(314deg) brightness(94%) contrast(77%);
+}
+
+.comments-container {
+    display: none; /* Изначально скрыто */
+    padding: 10px;
+    background-color: #ffffff;
+    
+}
+.comments-container2 {
+    display: none; /* Изначально скрыто */
+    padding: 10px;
+    background-color: #ffffff;
+    
+}
+.comments-container3 {
+    display: none; /* Изначально скрыто */
+    padding: 10px;
+    background-color: #ffffff;
+    
+}
+.avatar2 {
+    width: 35px;
+    border-radius: 100px;
+}
+
+.comment-input {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input {
+    max-width: 400px;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    flex-grow: 1;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+main {
+    padding-bottom: 200px;
+}
+footer {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    position: relative;
+    background-color: #292929;
+}
+
+.div-full-footer {
+    border-bottom: 1px solid #444444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding: 51px 0 16px 0;
+}
+
+.container-footer {
+    padding: 0px 22px;
+}
+
+
+.title-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    list-style: none;
+    width: 230.64px;
+    color: #fff;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #444444;
+}
+
+.title2-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    list-style: none;
+    color: #fff;
+    padding: 19px 0 8px 0;
+    border-bottom: 1px solid #444444;
+}
+
+summary {
+    list-style: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.details {
+    cursor: pointer;
+    list-style: none;
+}
+
+.details-p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.details-p2 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.details ul {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+}
+
+.details-ul-li {
+    cursor: default;
+    color: #858585;
+    padding: 0 0 10px 30px;
+}
+
+.number-footer {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #fff;
+}
+
+.text-after-number {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+}
+
+.text-address-gmail {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #fff;
+}
+
+.pos-gmail {
+    padding: 8px 0 0 0;
+    margin: 0;
+}
+
+.pos-svg-icon {
+    display: flex;
+    padding: 8px 0 0 0;
+    gap: 12px;
+}
+
+.word-end {
+    display: flex;
+    justify-content: center;
+    padding: 17px 0 24px 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

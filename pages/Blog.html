@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../styles/Blog.style.css">
     <title>FutureSkills - Блог</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
@@ -34,10 +36,226 @@
         </nav>
     </header>
     <main>
+
         <div class="container">
             <h1 class="h1">Блог</h1>
+            <div class="user">
+                <img class="avatar" src="../assets/images/avatar-for-blog.png">
+                <div class="user-info">
+                    <p class="name">Роберд</p>
+                    <p class="role">Администратор</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <input type="checkbox" id="toggle" class="toggle">
+                <p class="text">
+                    Новые тренды в программировании: что нужно знать в 2025 году?
+                    Мир программирования стремительно развивается, и чтобы оставаться востребованным специалистом, важно
+                    следить за новыми трендами. В 2025 году ключевыми направлениями станут искусственный интеллект и
+                    машинное обучение, которые применяются в анализе данных и автоматизации процессов.
+
+                    Важную роль играет кибербезопасность: компании вкладывают значительные средства в защиту данных, что
+                    повышает спрос на специалистов в этой сфере.
+
+                    Продолжают набирать популярность блокчейн и квантовые вычисления. Блокчейн используется в финансах,
+                    здравоохранении и логистике, а квантовые компьютеры открывают новые горизонты для вычислений. Не
+                    менее важен интернет вещей (IoT) — разработка умных
+                    устройств для домов, городов и промышленности.
+
+                    Также актуальна микросервисная архитектура,
+                    позволяющая создавать гибкие и масштабируемые приложения. Программисты, освоившие эти тенденции,
+                    будут иметь преимущество на рынке труда.
+                </p>
+                <label for="toggle" class="button"><img class="arrow" src="../assets/images/Arrow 3-down.svg"></label>
+            </div>
+        </div>
+        <div class="container-img">
+            <article class="photo">
+            </article>
+            <article class="photo2">
+            </article>
+            <article class="photo3">
+            </article>
+        </div>
+        <div class="div-nav-post">
+            <div class="part-1">
+                <button class="button-nav"><img src="../assets/images/Like.svg"></button>
+                <button onclick="toggleComments()" class="button-nav2"><img src="../assets/images/Comment.svg"></button>
+            </div>
+            <div>
+                <button class="button-nav2"><img src="../assets/images/Podelit.svg"></button>
+            </div>
+        </div>
+        <div class="comments-container">
+            <div class="comment-input">
+                <img class="avatar2" src="../assets/images/avatar-for-blog1.png" alt="Аватар">
+                <input type="text">
+                <button class="button-nav3"><img class="svg-comment" src="../assets/images/Comment.svg"></button>
+            </div>
         </div>
 
+        <div class="container">
+            <div class="user">
+                <img class="avatar" src="../assets/images/avatar-for-blog.png">
+                <div class="user-info">
+                    <p class="name">Роберд</p>
+                    <p class="role">Администратор</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <input type="checkbox" id="toggle2" class="toggle">
+                <p class="text">
+                    Интересные факты об английском языке
+
+                    Английский — один из самых распространённых языков в мире, но знаете ли вы, что…
+
+                    В английском самые большие словари. Oxford English Dictionary включает более 600 000 слов!
+
+                    Слово “girl” изначально не обозначало девушку — в Средние века им называли и мальчиков, и девочек.
+
+                    Самое длинное слово без гласных — “rhythms”.
+
+                    Английский постоянно меняется: каждое десятилетие в язык добавляются сотни новых слов.
+
+                    Самая распространённая буква — E, а самая редкая — Z.
+
+                    Самое длинное слово в английском — pneumonoultramicroscopicsilicovolcanoconiosis. Это название
+                    болезни лёгких!
+
+                    А какие интересные слова или факты знаете вы? Делитесь в комментариях!
+                </p>
+                <label for="toggle2" class="button"><img class="arrow" src="../assets/images/Arrow 3-down.svg"></label>
+            </div>
+        </div>
+        <div class="container-img">
+            <article class="photo11">
+            </article>
+            <article class="photo22">
+            </article>
+            <article class="photo33">
+            </article>
+        </div>
+        <div class="div-nav-post">
+            <div class="part-1">
+                <button class="button-nav"><img src="../assets/images/Like.svg"></button>
+                <button onclick="toggleComments2()" class="button-nav2"><img
+                        src="../assets/images/Comment.svg"></button>
+            </div>
+            <div>
+                <button class="button-nav2"><img src="../assets/images/Podelit.svg"></button>
+            </div>
+        </div>
+        <div class="comments-container2">
+            <div class="comment-input">
+                <img class="avatar2" src="../assets/images/avatar-for-blog1.png" alt="Аватар">
+                <input type="text">
+                <button class="button-nav3"><img class="svg-comment" src="../assets/images/Comment.svg"></button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="user">
+                <img class="avatar" src="../assets/images/avatar-for-blog.png">
+                <div class="user-info">
+                    <p class="name">Роберд</p>
+                    <p class="role">Администратор</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <input type="checkbox" id="toggle3" class="toggle">
+                <p class="text">
+                    Интересные факты о Китае
+
+                    Китай — страна с богатой историей и удивительной культурой. Вот несколько интересных фактов:
+
+                    В Китае живёт более 1,4 миллиарда человек — это самая густонаселённая страна в мире.
+
+                    Великая Китайская стена — самое длинное сооружение, построенное человеком. Её протяжённость около 21
+                    000 км.
+
+                    Китайцы изобрели бумагу, компас, порох и печатный станок задолго до Европы.
+
+                    В Китае насчитывается более 50 000 иероглифов, но для чтения газет достаточно знать 2–3 тысячи.
+
+                    Новый год в Китае — самый масштабный праздник, который может длиться до 15 дней.
+
+                    А какие факты о Китае удивили вас? Делитесь в комментариях!
+                </p>
+                <label for="toggle3" class="button"><img class="arrow" src="../assets/images/Arrow 3-down.svg"></label>
+            </div>
+        </div>
+        <div class="container-img">
+            <article class="photo111">
+            </article>
+            <article class="photo222">
+            </article>
+            <article class="photo333">
+            </article>
+        </div>
+        <div class="div-nav-post">
+            <div class="part-1">
+                <button class="button-nav"><img src="../assets/images/Like.svg"></button>
+                <button onclick="toggleComments3()" class="button-nav2"><img
+                        src="../assets/images/Comment.svg"></button>
+            </div>
+            <div>
+                <button class="button-nav2"><img src="../assets/images/Podelit.svg"></button>
+            </div>
+        </div>
+        <div class="comments-container3">
+            <div class="comment-input">
+                <img class="avatar2" src="../assets/images/avatar-for-blog1.png" alt="Аватар">
+                <input type="text">
+                <button class="button-nav3"><img class="svg-comment" src="../assets/images/Comment.svg"></button>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container-footer">
+            <div class="div-full-footer">
+                <div>
+                    <details class="details">
+                        <summary class="title-footer">Направления</summary>
+                        <ul>
+                            <li class="details-p"><a href="../pages/Course.html">Все курсы</a></li>
+                            <li class="details-ul-li">Русский язык</li>
+                            <li class="details-ul-li">Английский язык</li>
+                            <li class="details-ul-li">Китайский язык</li>
+                            <li class="details-ul-li">Обществознание</li>
+                            <li class="details-ul-li">Юридическая грамотность</li>
+                            <li class="details-ul-li">Физика</li>
+                            <li class="details-ul-li">Программирование</li>
+                            <li class="details-ul-li">3D-моделирование</li>
+                        </ul>
+                    </details>
+                    <details class="details">
+                        <summary class="title2-footer">O FutureSkills</summary>
+                        <ul>
+                            <li class="details-p2"><a href="../pages/Blog.html">Наш блог</a></li>
+                            <li class="details-p2"><a href="../pages/About.html">О нас</a></li>
+
+                        </ul>
+                    </details>
+                </div>
+                <div>
+                    <h7 class="number-footer">8 (800) 550-50-50</h7>
+                    <p class="text-after-number">Вопросы по покупке, оплате и содержанию курсов</p>
+                </div>
+                <div>
+                    <h7 class="text-address-gmail">г. Москва, Малый Конюшковский пер., 2 </h7>
+                    <p class="text-address-gmail pos-gmail">welcome@futureskills.ru</p>
+                    <article class="pos-svg-icon">
+                        <img src="../assets/images/Vector-1.svg">
+                        <img src="../assets/images/Vector.svg">
+                        <img src="../assets/images/Vector-2.svg">
+                    </article>
+                </div>
+            </div>
+        </div>
+        <p class="text-after-number word-end">© FutureSkills, 2025</p>
+    </footer>
+
+    <script src="../scripts/comments.js"></script>
 </body>
+
 </html>

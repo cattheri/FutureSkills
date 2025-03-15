@@ -193,3 +193,231 @@ input {
 main {
     padding-bottom: 100px;
 }
+@media screen and (min-width:768px) {
+    .logo {
+        display: flex;
+        margin: 19px 0 0 22px;
+        width: 135px;
+        height: 32px;
+    }
+    
+    .container {
+        padding: 67px 130px 0 130px;
+    
+    }
+    
+    .h1 {
+        font-family: Montserrat-Bold;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 18px;
+        margin: 0;
+    }
+    
+    input {
+        text-indent: 20px;
+    
+        &::placeholder {
+            color: #FFFFFF;
+        }
+    
+        &:hover {
+            outline: none;
+        }
+    
+        &:hover::placeholder {
+            color: #ffffff00;
+        }
+    
+    }
+    
+    .div {
+        display: flex;
+        gap: 11px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .log-in {
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        line-height: 45px;
+        border-radius: 20px;
+        border: none;
+        width: 675px;
+        letter-spacing: -0.5px;
+        height: 45px;
+        padding: 0;
+        background-color: #cdcdcd;
+    }
+
+    .text-remember {
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        vertical-align: middle;
+        letter-spacing: -0.25px;
+        position: relative;
+        top: -5px;
+    }
+    
+    .div-2 {
+        display: flex;
+        gap: 9px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 27px;
+    }
+    
+    .button-1 {
+        background-color: #0C2134;
+        line-height: 45px;
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+        padding: 0;
+        min-width: 675px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .button-2 {
+        background-color: #ffffff;
+        line-height: 43px;
+        letter-spacing: -0.5px;
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0;
+        min-width: 675px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .p-help {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        margin: 0;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .logo {
+        display: flex;
+        margin: 19px 0 0 22px;
+        width: 155px;
+        height: 52px;
+    }
+    
+    .container {
+        padding: 67px 215px 0 215px;
+    
+    }
+    
+    .h1 {
+        font-family: Montserrat-Bold;
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 18px;
+        margin: 0;
+    }
+    
+    input {
+        text-indent: 20px;
+    
+        &::placeholder {
+            color: #FFFFFF;
+        }
+    
+        &:hover {
+            outline: none;
+        }
+    
+        &:hover::placeholder {
+            color: #ffffff00;
+        }
+    
+    }
+    
+    .div {
+        display: flex;
+        gap: 11px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .log-in {
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        line-height: 45px;
+        border-radius: 20px;
+        border: none;
+        width: 675px;
+        letter-spacing: -0.5px;
+        height: 45px;
+        padding: 0;
+        background-color: #cdcdcd;
+    }
+
+    .text-remember {
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        vertical-align: middle;
+        letter-spacing: -0.25px;
+        position: relative;
+        top: -5px;
+    }
+    
+    .div-2 {
+        display: flex;
+        gap: 9px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 27px;
+    }
+    
+    .button-1 {
+        background-color: #0C2134;
+        line-height: 45px;
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+        padding: 0;
+        min-width: 675px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .button-2 {
+        background-color: #ffffff;
+        line-height: 43px;
+        letter-spacing: -0.5px;
+        font-family: Montserrat-Medium;
+        font-size: 18px;
+        border: 1px solid #000000;
+        color: #000000;
+        padding: 0;
+        min-width: 675px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .p-help {
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        margin: 0;
+    }
+    
+}
